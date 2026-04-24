@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/shared.js"></script>
+</head>
+<body>
+<script>
+layout(
+  'Főoldal',
+  'Az alkalmazás az érettségi adatbázist dolgozza fel.',
+  'index.html',
+  `
+    <section class="stats">
+      <div class="stat"><span class="badge">Adatbázis</span><strong>3</strong><span>fő tábla</span></div>
+      <div class="stat"><span class="badge">Vizsgázók</span><strong>268</strong><span>rekord</span></div>
+      <div class="stat"><span class="badge">Tantárgyak</span><strong>10</strong><span>rekord</span></div>
+      <div class="stat"><span class="badge">Vizsgák</span><strong>319</strong><span>eredmény</span></div>
+    </section>
+
+    <section class="card">
+      <h2>Alkalmazás bemutatása</h2>
+      <p>
+        A projekt célja egy olyan oktatási webalkalmazás elkészítése, amely az érettségi vizsgák adatait kezeli.
+        A rendszer külön menüpontokban mutatja be a sima frontend CRUD-ot, a backendhez kapcsolódó adatbázisos megoldásokat,
+        egy React alapú egyoldalas alkalmazást, valamint egy objektumorientált JavaScript grafikát.
+      </p>
+    </section>
+
+    <section class="menu-list">
+      <a class="menu-item" href="javascript.html"><h3>JavaScript CRUD</h3></a>
+      <a class="menu-item" href="./react/dist/index.html"><h3>React</h3></a>
+      <a class="menu-item" href="./react-spa/dist/index.html"><h3>SPA</h3></a>
+      <a class="menu-item" href="fetchapi.html"><h3>Fetch API</h3></a>
+      <a class="menu-item" href="./react-axios/dist/index.html""><h3>React + Axios</h3></a>
+      <a class="menu-item" href="oojs.html"><h3>OOJS</h3></a>
+    </section>
+  `
+);
+</script>
+</body>
+</html>
