@@ -26,6 +26,13 @@ button, input { font: inherit; }
   box-shadow: 0 18px 50px rgba(28, 53, 84, 0.12);
 }
 
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
 .eyebrow {
   margin: 0 0 8px;
   text-transform: uppercase;
