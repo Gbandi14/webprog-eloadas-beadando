@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { initialVizsgatargyak } from './initialData.js';
 import './style.css';
+import Footer from "./footer";
 
 const STORAGE_KEY = 'react-crud-vizsgatargyak';
 const emptyForm = { nev: '', szomax: '', irmax: '' };
@@ -189,6 +190,7 @@ function App() {
           </div>
         </section>
       </section>
+      <Footer />
     </main>
   );
 }
